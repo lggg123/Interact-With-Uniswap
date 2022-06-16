@@ -1,0 +1,13 @@
+{
+  "name": "multifarm",
+  "version": "1.0.0",
+  "description": "a simple endpoint to retrieve data from vfat tools.",
+  "main": "index.js",
+  "repository": "https://github.com/lggg123/Ineract-With-Uniswap.git",
+  "author": "George Alexander Lugo",
+  "license": "MIT",
+  "dependencies": {
+    "@uniswap/sdk": "^3.0.3",
+    "ethers": "^5.6.8"
+  }
+}

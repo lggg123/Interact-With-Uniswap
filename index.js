@@ -9,7 +9,7 @@ const tokenAddress = 'TOKEN_ADDRESS'
 
 const init = async() => {
   const dai = await Fetcher.fetchTokenData(chainId, tokenAddress, customHttpProvider);
-  cont weth = WETH[chainId];
+  const weth = WETH[chainId];
   const pair = await Fetcher.fetchPairData(dai, weth, customHttpProvider);
   const route = new Route([pair], weth);
   const trade = new Trade(route, new TokenAmount(weth, '100000000000000000'), TradeType.EXACT_INPUT);
